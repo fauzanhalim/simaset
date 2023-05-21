@@ -333,7 +333,7 @@ CREATE TABLE `setup` (
 --
 
 INSERT INTO `setup` (`id`, `name_app`, `name_institute`, `address`, `city`, `picture`) VALUES
-(1, 'SIM ASET', 'CV ALFATIH DEVELOPER', 'Jln. Lorem Ispum 09, Kec. Coblong, Kota Bandung, Jawa Barat', 'Bandung', 'd2fcad23c5dc4b645a91834cd9200fcb.png');
+(1, 'SIM ASET', 'Yayasan Pembangunan An-Nur Cabangbungin', 'Kp. Terusan, Kec. Cabangbungin, Kabupaten Bekasi, Jawa Barat', 'Bekasi', 'd2fcad23c5dc4b645a91834cd9200fcb.png');
 
 -- --------------------------------------------------------
 

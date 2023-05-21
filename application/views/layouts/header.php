@@ -192,6 +192,12 @@
                 <p>Dihapuskan</p>
               </a>
             </li>
+            <li class="nav-item">
+              <a href="<?=base_url('users')?>" class="nav-link <?=isset($active_menu_user)?$active_menu_user:'' ?>">
+                <i class="far fa-circle nav-icon"></i>
+                <p>User</p>
+              </a>
+            </li>
           </ul>
         </li>
         <!-- <li class="nav-item has-treeview <?=isset($active_menu_kp)?$active_menu_kp:'' ?>">
