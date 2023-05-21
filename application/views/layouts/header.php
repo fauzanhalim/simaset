@@ -132,13 +132,13 @@
             <p>Dashboard</p>
           </a>
         </li>
-        <li class="nav-item has-treeview">
+        <!-- <li class="nav-item has-treeview">
           <a href="<?=base_url('statistik')?>" class="nav-link <?=isset($active_menu_statistik)?$active_menu_statistik:'' ?>">
             <i class="nav-icon fas fa-chart-pie"></i>
             <p>Statistik</p>
           </a>
-        </li>
-        <li class="nav-item has-treeview <?=isset($active_menu_master)?$active_menu_master:'' ?>">
+        </li> -->
+        <!-- <li class="nav-item has-treeview <?=isset($active_menu_master)?$active_menu_master:'' ?>">
           <a href="#" class="nav-link <?=isset($active_menu_mst)?$active_menu_mst:'' ?>">
             <i class="nav-icon fa fa-database"></i>
             <p>Data Master
@@ -171,7 +171,7 @@
               </a>
             </li>
           </ul>
-        </li>
+        </li> -->
         <li class="nav-item has-treeview <?=isset($active_menu_open)?$active_menu_open:'' ?>">
           <a href="#" class="nav-link <?=isset($active_menu_aset)?$active_menu_aset:'' ?>">
             <i class="nav-icon fa fa-building"></i>
