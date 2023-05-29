@@ -27,12 +27,12 @@
   <section class="content">
      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6">
+          <!-- <div class="col-md-6">
             <div class="card card-primary">
               <div class="card-header">
                 <h3 class="card-title">Rekomendasi Pengadaan Aset</h3>
               </div>
-              <!-- /.card-header -->
+              
               <div class="card-body">
                   <?php 
                     $no=1; 
@@ -52,15 +52,15 @@
                     echo "<p>Berdasarkan hasil perhitungan, maka pemilihan aset terbaik untuk pengadaan dengan nilai tertinggi ".$output;                
                   ?>
               </div>
-              <!-- /.card-body -->
+              
             </div>
-          </div>
+          </div> -->
           <div class="col-md-6">
             <div class="card card-primary">
               <div class="card-header">
                 <h3 class="card-title">Rekomendasi Jumlah Pengadaan</h3>
               </div>
-              <!-- /.card-header -->
+              
               <div class="card-body">
                 <select name="id_lokasi" class="selectx form-control" required>
                   <option value="">Cari..</option>
@@ -69,7 +69,7 @@
                   <?php endforeach ?>      
                 </select>
               </div>
-              <!-- /.card-body -->
+              
             </div>
           </div>
         </div>

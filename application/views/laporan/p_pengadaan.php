@@ -51,7 +51,7 @@
 	</div>
 	<div class="col-md-4 text-center">
 		<p><?=$app['city'];?>, <?=tgl_indo(date('Y-m-d'))?></p>
-		<p class="ex1">Kepala Bagian</p>
+		<p class="ex1">Ketua Yayasan </p>
 		____________</br>
 	</div>
 </div> 							

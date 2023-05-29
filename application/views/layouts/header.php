@@ -138,7 +138,7 @@
             <p>Statistik</p>
           </a>
         </li> -->
-        <!-- <li class="nav-item has-treeview <?=isset($active_menu_master)?$active_menu_master:'' ?>">
+        <li class="nav-item has-treeview <?=isset($active_menu_master)?$active_menu_master:'' ?>">
           <a href="#" class="nav-link <?=isset($active_menu_mst)?$active_menu_mst:'' ?>">
             <i class="nav-icon fa fa-database"></i>
             <p>Data Master
@@ -152,12 +152,12 @@
                 <p>Barang</p>
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="<?=base_url('kategori')?>" class="nav-link <?=isset($active_menu_jb)?$active_menu_jb:'' ?>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Kategori Barang</p>
               </a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a href="<?=base_url('lokasi')?>" class="nav-link <?=isset($active_menu_lokasi)?$active_menu_lokasi:'' ?>">
                 <i class="far fa-circle nav-icon"></i>
@@ -171,7 +171,7 @@
               </a>
             </li>
           </ul>
-        </li> -->
+        </li>
         <li class="nav-item has-treeview <?=isset($active_menu_open)?$active_menu_open:'' ?>">
           <a href="#" class="nav-link <?=isset($active_menu_aset)?$active_menu_aset:'' ?>">
             <i class="nav-icon fa fa-building"></i>
@@ -190,12 +190,6 @@
               <a href="<?=base_url('aset_dihapuskan')?>" class="nav-link <?=isset($active_menu_hapuskan)?$active_menu_hapuskan:'' ?>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Dihapuskan</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="<?=base_url('users')?>" class="nav-link <?=isset($active_menu_user)?$active_menu_user:'' ?>">
-                <i class="far fa-circle nav-icon"></i>
-                <p>User</p>
               </a>
             </li>
           </ul>

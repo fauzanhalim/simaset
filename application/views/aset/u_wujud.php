@@ -123,7 +123,7 @@
                 </div>
                 </div>
               </div> 
-              <div class="form-group row">
+              <!-- <div class="form-group row">
                 <label for="tanggal_terima" class="col-sm-2 col-form-label">Generate QR Code?</label>
                 <div class="col-sm-6">
                   <div class="form-check">
@@ -133,7 +133,7 @@
                     </label>
                   </div>
                 </div>
-              </div>           
+              </div>            -->
             </div>
             <!-- /.card-body -->
             <div class="card-footer">
